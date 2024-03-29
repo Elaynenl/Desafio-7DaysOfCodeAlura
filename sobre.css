@@ -1,0 +1,27 @@
+.sobre {
+    text-align: center;
+    padding: 4em 9em;
+}
+
+.sobre__titulo {
+    font-size: 16px;
+    color: var(--vermelho-escuro);
+    font-weight: 600;
+}
+
+.titulo {
+    color: var(--preto);
+    font-size: 48px;
+    font-weight: 600;
+    /* padding: 0 5em; */
+    white-space: nowrap;
+    margin: 0.7em 5em;
+}
+
+.texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    margin: 0 7em;
+}
+
