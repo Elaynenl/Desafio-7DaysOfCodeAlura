@@ -1,0 +1,85 @@
+:root {
+    --branco: #FFFFFF;
+    --preto: #101828;
+    --cinza: #667085;
+    --vermelho-escuro: #8E2424;
+    --fonte-principal: 'Inter';
+    --cor-hover-botao:#973939;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    
+}
+
+.container__lista {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 4em;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    height: 26px;
+    margin-top: 0.3em;
+}
+
+
+.lista {
+    display: flex;
+    list-style-type: none;
+}
+
+.lista__link a{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 0.5em;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza);
+    
+}
+
+.login__link, .login__botao {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.login__botao {
+    background-color: var(--vermelho-escuro);
+    color: var(--branco);    
+    padding: 0.8em 1em;
+    border-radius: 0.5em;
+}
+
+.login__link {
+    color: var(--cinza);
+    border-radius: 0.5em;
+    border: transparent;
+    padding: 0.8em 1em;
+}
+
+.login__botao:hover {
+    background-color: var(--cor-hover-botao);
+}
+
+.login__link:hover, .lista__link :hover {
+    border: 0.2px solid var(--cor-hover-botao);
+}
