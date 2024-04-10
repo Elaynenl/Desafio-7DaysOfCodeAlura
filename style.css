@@ -5,6 +5,8 @@
     --vermelho-escuro: #8E2424;
     --fonte-principal: 'Inter';
     --cor-hover-botao:#973939;
+    --gradiente-background: rgba(142, 36, 36, 0.05);
+    --cor-borda: #EAECF0;
 }
 
 * {
@@ -86,3 +88,5 @@ body {
 .login__link:hover, .lista__link :hover {
     border: 0.2px solid var(--cor-hover-botao);
 }
+
+
