@@ -2,11 +2,13 @@
     --branco: #FFFFFF;
     --preto: #101828;
     --cinza: #667085;
+    --cinza-rodape:#98A2B3;
     --vermelho-escuro: #8E2424;
     --fonte-principal: 'Inter';
     --cor-hover-botao:#973939;
     --gradiente-background: rgba(142, 36, 36, 0.05);
     --cor-borda: #EAECF0;
+    --background-rodape: #F9FAFB;
 }
 
 * {
