@@ -31,5 +31,5 @@ O site possui as seguintes seções:
 <span>Autor</span> <br>
 <p>Este projeto foi desenvolvido por Elayne Nascimento.</p>
 
-Licença
+<span>Licença</span> <br>
 Este projeto está licenciado sob a licença MIT.
